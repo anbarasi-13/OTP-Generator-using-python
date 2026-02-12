@@ -1,12 +1,1 @@
-import random
-
-def generate_otp(length=6):
-    otp = ""
-    for _ in range(length):
-        otp += str(random.randint(0, 9))
-    return otp
-
-print(" OTP Generator")
-
-otp = generate_otp()
-print("Your OTP is:", otp)
+This Simple Banking System is a Python console application that allows users to perform basic banking operations like depositing money, withdrawing money, and checking account balance. The program uses functions to handle each operation and applies conditional statements to validate transactions such as insufficient balance. A loop-based menu system allows the user to perform multiple operations until they choose to exit. This project demonstrates the use of variables, functions, loops, and decision-making statements in Python
